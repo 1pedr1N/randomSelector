@@ -10,21 +10,24 @@ const MainPage = () => {
                     <S.Input placeholder="Ajuda para sua Choice de hoje!" />
                 </S.ContainerInput>
                 <S.ContainerResponse>
-                    <table>
-                        <tr>
-                            <th>
-                                <S.Input />
-                            </th>
-                        </tr>
-                        <tr>
-                            <td>
-                                <S.BoxResponse>
-                                    <S.Text>Suas escolhas foram! </S.Text>
-                                    <S.TextResponse>sasa </S.TextResponse>
-                                </S.BoxResponse>
-                            </td>
-                        </tr>
-                    </table>
+                    <div className="div2">
+                        <S.Select>
+                            <option>A</option>
+                            <option>B</option>
+                            <option>C</option>
+                            <option>D</option>
+                            <option>F</option>
+                        </S.Select>
+                        <S.Button>
+                            <S.Icon />
+                        </S.Button>
+                    </div>
+                    <div className="div1">
+                        <S.BoxResponse>
+                            <S.Text>Suas escolhas para o A foram! </S.Text>
+                            <S.TextResponse>sasa </S.TextResponse>
+                        </S.BoxResponse>{' '}
+                    </div>
                 </S.ContainerResponse>
             </S.MainContainer>
         </S.Container>
