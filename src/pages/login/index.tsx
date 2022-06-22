@@ -14,6 +14,14 @@ const LoginScreen = () => {
                 <Link to="/welcome">
                     <S.Button> Se decida!</S.Button>
                 </Link>
+                <div className="row">
+                    <Link to="registerAccount">
+                        <S.TextOptions> Registra-se</S.TextOptions>{' '}
+                    </Link>
+                    <Link to="/recover">
+                        <S.TextOptions> Esqueceu sua senha</S.TextOptions>{' '}
+                    </Link>
+                </div>
             </S.ContainerLogin>
         </S.Container>
     )

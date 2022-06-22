@@ -11792,6 +11792,11 @@
   "resolved" "https://registry.npmjs.org/xmlchars/-/xmlchars-2.2.0.tgz"
   "version" "2.2.0"
 
+"xp.css@^0.3.0":
+  "integrity" "sha512-+J2RkwXfJsTjoJO0VDz4F4Wqan7tvkxjRArAjmMWAqrlZ775zyEhq1nVRNcPgka0aq9sXQWY3Tc3MvwDerfzxg=="
+  "resolved" "https://registry.npmjs.org/xp.css/-/xp.css-0.3.0.tgz"
+  "version" "0.3.0"
+
 "xregexp@4.0.0":
   "integrity" "sha512-PHyM+sQouu7xspQQwELlGwwd05mXUFqwFYfqPO0cC7x4fxyHnnuetmQr6CjJiafIDoH4MogHb9dOoJzR/Y4rFg=="
   "resolved" "https://registry.npmjs.org/xregexp/-/xregexp-4.0.0.tgz"

@@ -13,6 +13,11 @@ export const Container = styled.div`
         color: #ff725e;
         font-family: 'Poppins';
     }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 `
 export const ContainerLogin = styled.div`
     flex-direction: column;
@@ -40,7 +45,7 @@ export const Title = styled.text`
     display: flex;
     justify-content: center;
 `
-export const Button = styled.button`
+export const Button = styled.div`
     width: 100%;
     height: 50px;
     border-radius: 15px;
@@ -55,10 +60,23 @@ export const Button = styled.button`
     display: flex;
     justify-content: center;
     align-items: center;
+
     color: #fafafa;
     :hover {
         background-color: #0072d2;
         transition: 0.4s;
         border: 1px solid #0072d2;
+    }
+`
+export const TextOptions = styled.div`
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: initial;
+    cursor: pointer;
+    :hover {
+        color: #0072d2;
+        transition: 0.4s;
     }
 `
